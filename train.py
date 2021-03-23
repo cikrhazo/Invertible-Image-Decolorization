@@ -42,7 +42,7 @@ def main(args):
 
     timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime())
     log_file = os.path.join(model_path, f'{timestamp}.log')
-    logger = get_logger(name='fpn', log_file=log_file, log_level=logging.INFO)
+    logger = get_logger(name='IDN', log_file=log_file, log_level=logging.INFO)
     logger.info(f"batch size {batch_size}")
 
     TrainSet = MakeTrainSet()
