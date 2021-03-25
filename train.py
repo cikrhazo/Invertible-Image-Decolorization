@@ -14,7 +14,6 @@ import torch.nn as nn
 from termcolor import colored
 from mmcv.utils import get_logger
 from skimage.metrics import peak_signal_noise_ratio as compare_psnr
-from skimage.metrics import structural_similarity as compare_ssim
 
 
 class Logger(object):
@@ -128,9 +127,7 @@ def main(args):
         validSamples = 0
 
         ColorPSNR = 0
-        ColorSIMM = 0
         GrayPSNR = 0
-        GraySSIM = 0
 
         for batch_idx, (tensor_g, tensor_c, h, w) in enumerate(ValidLoader):
             n, _, _, _ = tensor_c.size()
@@ -154,26 +151,20 @@ def main(args):
                 img_colorized = tensor_pc[ii].transpose((1, 2, 0)).clip(0, 1)[:h[ii], :w[ii], :]
                 img_ground_th = tensor_c[ii].transpose((1, 2, 0)).clip(0, 1)[:h[ii], :w[ii], :]
                 psnr_c = round(compare_psnr(img_colorized, img_ground_th, data_range=1), 4)
-                ssim_c = round(compare_ssim(img_colorized, img_ground_th, data_range=1, multichannel=True), 4)
 
                 img_grayscale = tensor_pg[ii].clip(0, 1)[:h[ii], :w[ii]]
                 img_grayed_th = tensor_g[ii].clip(0, 1)[:h[ii], :w[ii]]
                 psnr_g = round(compare_psnr(img_grayscale, img_grayed_th, data_range=1), 4)
-                ssim_g = round(compare_ssim(img_grayscale, img_grayed_th, data_range=1, multichannel=False), 4)
 
                 print("#sample:" + str(batch_idx) + "_" + str(ii) +
                       ' Colorized => PSNR: %.4f; SSIM: %.4f' % (psnr_c, ssim_c), end=" | ")
                 print('Grayscale => PSNR: %.4f; SSIM: %.4f' % (psnr_g, ssim_g))
 
                 ColorPSNR += psnr_c
-                ColorSIMM += ssim_c
                 GrayPSNR += psnr_g
-                GraySSIM += ssim_g
 
         ColorPSNR = ColorPSNR / validSamples
-        ColorSIMM = ColorSIMM / validSamples
         GrayPSNR = GrayPSNR / validSamples
-        GraySSIM = GraySSIM / validSamples
 
         ValidPSNR = (ColorPSNR + GrayPSNR) / 2
         if BestPSNR < ValidPSNR:
@@ -181,7 +172,7 @@ def main(args):
             torch.save(net.module.state_dict(), os.path.join(model_path, 'ColorFlow.pth'))
         logger.info(
             'Valid Samples = %3d | ' % validSamples
-            + colored('Color PSNR/SSIM = %.4f; %.4f', 'red') % (ColorPSNR, ColorSIMM) + " | "
+            + colored('Color PSNR = %.4f', 'red') % ColorPSNR + " | "
             + colored('Best PSNR = %.4f', 'green') % BestPSNR + " | "
             + 'Gray PSNR = %.4f' % GrayPSNR
         )
