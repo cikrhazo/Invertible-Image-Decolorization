@@ -8,15 +8,6 @@ import glob
 from datasets.utls import *
 
 
-def rgb2gray(rgb):
-
-    r, g, b = rgb[:, :, 0], rgb[:, :, 1], rgb[:, :, 2]
-    gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
-
-    return gray
-  
-
-
 class Kodak24(data.Dataset):
     def __init__(self, root='/media/ruizhao/programs/datasets/Denoising/testset/Kodak24/'):
         self.root = root
@@ -100,14 +91,11 @@ class MakeTrainSet(data.Dataset):
 
 class MakeValidSet(data.Dataset):
 
-    def __init__(self, root="/media/ruizhao/data/Datasets/VOCtrainval_11-May-2012/VOCdevkit/VOC2012/JPEGImages/",
-                 full=False):
+    def __init__(self, root="/media/ruizhao/data/Datasets/VOCtrainval_11-May-2012/VOCdevkit/VOC2012/JPEGImages/"):
         self.root = root
 
         path = sorted(glob.glob(os.path.join(self.root, "*.jpg")))
         self.path_valid = path[:3367]
-        if not full:
-            self.path_valid = self.path_valid[:40]
 
     def __getitem__(self, item):
         img_bgr = cv2.imread(self.path_valid[item], cv2.IMREAD_COLOR)
