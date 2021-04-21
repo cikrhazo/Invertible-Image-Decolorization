@@ -23,11 +23,11 @@ class ConsistencyLoss(nn.Module):
 
         if loss_stage == 1:
             g_loss = self.g_loss(gray_img, ref_img, original_img, ls_weight=s_weight)
-            total_loss = 3 * i_loss + g_loss
+            total_loss = i_loss + g_loss
         elif loss_stage == 2:
             g_loss = self.g_loss(gray_img, original_img, ls_weight=s_weight)
             q_loss = self.q_loss(gray_img)
-            total_loss = 3 * i_loss + g_loss + (10 * q_loss)
+            total_loss = i_loss + g_loss + (10 * q_loss)
         else:
             total_loss = 0
 
