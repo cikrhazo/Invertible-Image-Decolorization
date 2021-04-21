@@ -18,14 +18,14 @@ class ConsistencyLoss(nn.Module):
         self.g_loss = GrayscaleConformityLoss(device, img_shape, threshold, vgg_layer_idx, c_weight)
         self.q_loss = QuantizationLoss()
 
-    def forward(self, gray_img, ref_img, original_img, restored_img, loss_stage):
+    def forward(self, gray_img, ref_img, original_img, restored_img, loss_stage, s_weight):
         i_loss = self.i_loss(original_img, restored_img)
 
         if loss_stage == 1:
-            g_loss = self.g_loss(gray_img, ref_img, original_img, ls_weight=0.5)
+            g_loss = self.g_loss(gray_img, ref_img, original_img, ls_weight=s_weight)
             total_loss = 3 * i_loss + g_loss
         elif loss_stage == 2:
-            g_loss = self.g_loss(gray_img, original_img, ls_weight=0.1)
+            g_loss = self.g_loss(gray_img, original_img, ls_weight=s_weight)
             q_loss = self.q_loss(gray_img)
             total_loss = 3 * i_loss + g_loss + (10 * q_loss)
         else:
