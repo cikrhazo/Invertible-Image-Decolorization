@@ -61,7 +61,7 @@ def main(args):
     net = torch.nn.DataParallel(net, device_ids=[0, 1])
     net.cuda(device=device)
     quantize = Quantization()
-    loss_cons = ConsistencyLoss(device="cuda:0", img_shape=(batch_size, 1, 128, 128))
+    loss_cons = ConsistencyLoss(device="cuda:0", img_shape=(batch_size, 1, 128, 128), c_weight=args.c_weight)
     loss_dist = nn.MSELoss(reduction="sum")
 
     tmp = filter(lambda x: x.requires_grad, net.parameters())
@@ -190,6 +190,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", type=int, default=2)
     parser.add_argument("--beginner", type=int, default=0)
     parser.add_argument('--Epoch', type=int, default=1)
+    parser.add_argument("--c_weight", type=float)
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--weight_decay", type=float, default=5e-4)
     parser.add_argument('--device', type=int, default=0)
