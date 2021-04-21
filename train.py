@@ -106,7 +106,7 @@ def main(args):
                                   restored_img=tensor_y, loss_stage=1, s_wegiht=args.s_weight) / n
             loss_self = (tensor_z**2).sum() / (128**2 * 2 * n)
             loss_gray = loss_dist(tensor_prg, tensor_g) / n
-            loss = loss_invt + 0.1 * loss_self / 2 + 3.0 * loss_gray
+            loss = loss_invt + args.r_weight * loss_self / 2
 
             loss.backward()
             torch.nn.utils.clip_grad_norm_(net.parameters(), 10)
@@ -192,6 +192,7 @@ if __name__ == "__main__":
     parser.add_argument('--Epoch', type=int, default=1)
     parser.add_argument("--c_weight", type=float)
     parser.add_argument("--s_weight", type=float)
+    parser.add_argument("--r_weight", type=float)
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--weight_decay", type=float, default=5e-4)
     parser.add_argument('--device', type=int, default=0)
