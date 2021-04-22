@@ -69,6 +69,8 @@ def main(args):
     print('Total trainable tensors:', str(num))
 
     BestPSNR = 0.
+    
+    # use warmup to stablize the training, or it may not converage
 
     for i in range(beginner, epoch):
         loss_record = 0
