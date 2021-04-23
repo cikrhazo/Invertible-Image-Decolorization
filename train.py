@@ -108,7 +108,7 @@ def main(args):
                                   restored_img=tensor_y, loss_stage=1, s_wegiht=args.s_weight) / n
             loss_self = (tensor_z**2).sum() / (128**2 * 2 * n)
             loss_gray = loss_dist(tensor_prg, tensor_g) / n
-            loss = loss_invt + args.r_weight * loss_self / 2
+            loss = loss_invt + args.r_weight * loss_self / 2 + args.g_weight * loss_gray
 
             loss.backward()
             torch.nn.utils.clip_grad_norm_(net.parameters(), 10)
