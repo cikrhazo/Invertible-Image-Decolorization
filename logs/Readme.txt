@@ -1,1 +1,1 @@
-Some logs of our re-implementation
+Some logs of a re-implementation.
