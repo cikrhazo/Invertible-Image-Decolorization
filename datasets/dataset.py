@@ -52,7 +52,7 @@ class MakeTrainSet(data.Dataset):
 
         path = sorted(glob.glob(os.path.join(self.root, "*.jpg")))
         self.path_train = path[3367:]
-        self.path_train_select = random.sample(self.path_train, 4000)
+        self.path_train_select = random.sample(self.path_train, 8000)
 
     def __getitem__(self, item):
         img_bgr = cv2.imread(self.path_train_select[item], cv2.IMREAD_COLOR)
