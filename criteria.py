@@ -23,7 +23,7 @@ class ConsistencyLoss(nn.Module):
 
         if loss_stage == 1:
             g_loss = self.g_loss(gray_img, ref_img, original_img, ls_weight=s_weight)
-            total_loss = i_loss + g_loss
+            total_loss = 3 * i_loss + g_loss # 3 channels
         elif loss_stage == 2:
             g_loss = self.g_loss(gray_img, original_img, ls_weight=s_weight)
             q_loss = self.q_loss(gray_img)
@@ -50,7 +50,8 @@ class GrayscaleConformityLoss(nn.Module):
 
         self.threshold = threshold
         self.vgg = nn.DataParallel(vgg19(pretrained=True).features[:vgg_layer_idx]).to(device)
-        self.dis = nn.MSELoss(reduction="sum")
+#         self.dis = nn.MSELoss(reduction="sum")
+        self.dis = nn.L1Loss(reduction="sum")
 
         self.c_weight = c_weight
         self.zeros = torch.zeros(img_shape).to(device)
