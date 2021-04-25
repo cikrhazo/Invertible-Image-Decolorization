@@ -1,0 +1,602 @@
+2021-04-23 15:01:21,817 - IDN - INFO - batch size 16
+2021-04-23 15:01:30,910 - IDN - INFO - # Training Samples: 8000; Valid Samples: 24
+2021-04-23 15:09:46,579 - IDN - INFO - Train: Epoch =   1 | Ave Loss = 3724.9292 | Train Samples = 8000.
+2021-04-23 15:09:53,604 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 30.9451; 0.9268[0m | [32mBest PSNR = 30.9451[0m | Gray PSNR = 26.1226
+2021-04-23 15:18:08,223 - IDN - INFO - Train: Epoch =   2 | Ave Loss = 226.7675 | Train Samples = 8000.
+2021-04-23 15:18:15,175 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 36.6683; 0.9713[0m | [32mBest PSNR = 36.6683[0m | Gray PSNR = 34.1904
+2021-04-23 15:26:30,410 - IDN - INFO - Train: Epoch =   3 | Ave Loss = 139.7955 | Train Samples = 8000.
+2021-04-23 15:26:36,899 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 34.7661; 0.9588[0m | [32mBest PSNR = 36.6683[0m | Gray PSNR = 36.1490
+2021-04-23 15:35:06,585 - IDN - INFO - Train: Epoch =   4 | Ave Loss = 112.0294 | Train Samples = 8000.
+2021-04-23 15:35:13,092 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 34.7527; 0.9673[0m | [32mBest PSNR = 36.6683[0m | Gray PSNR = 37.4608
+2021-04-23 15:43:56,600 - IDN - INFO - Train: Epoch =   5 | Ave Loss = 100.2911 | Train Samples = 8000.
+2021-04-23 15:44:03,665 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.2444; 0.9808[0m | [32mBest PSNR = 39.2444[0m | Gray PSNR = 37.2098
+2021-04-23 15:52:20,228 - IDN - INFO - Train: Epoch =   6 | Ave Loss = 96.2255 | Train Samples = 8000.
+2021-04-23 15:52:29,368 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.0123; 0.9843[0m | [32mBest PSNR = 40.0123[0m | Gray PSNR = 36.4853
+2021-04-23 16:00:43,436 - IDN - INFO - Train: Epoch =   7 | Ave Loss = 94.8805 | Train Samples = 8000.
+2021-04-23 16:00:49,902 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.4939; 0.9844[0m | [32mBest PSNR = 40.0123[0m | Gray PSNR = 38.5983
+2021-04-23 16:09:03,676 - IDN - INFO - Train: Epoch =   8 | Ave Loss = 86.9133 | Train Samples = 8000.
+2021-04-23 16:09:10,173 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.7387; 0.9848[0m | [32mBest PSNR = 40.0123[0m | Gray PSNR = 39.9456
+2021-04-23 16:17:23,659 - IDN - INFO - Train: Epoch =   9 | Ave Loss = 86.1056 | Train Samples = 8000.
+2021-04-23 16:17:30,113 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.4337; 0.9810[0m | [32mBest PSNR = 40.0123[0m | Gray PSNR = 36.9864
+2021-04-23 16:25:43,973 - IDN - INFO - Train: Epoch =  10 | Ave Loss = 79.9157 | Train Samples = 8000.
+2021-04-23 16:25:50,955 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.5590; 0.9862[0m | [32mBest PSNR = 40.5590[0m | Gray PSNR = 36.7543
+2021-04-23 16:34:04,567 - IDN - INFO - Train: Epoch =  11 | Ave Loss = 78.2999 | Train Samples = 8000.
+2021-04-23 16:34:11,048 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 38.4096; 0.9840[0m | [32mBest PSNR = 40.5590[0m | Gray PSNR = 34.8708
+2021-04-23 16:42:25,179 - IDN - INFO - Train: Epoch =  12 | Ave Loss = 73.5278 | Train Samples = 8000.
+2021-04-23 16:42:31,691 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.0918; 0.9861[0m | [32mBest PSNR = 40.5590[0m | Gray PSNR = 39.8743
+2021-04-23 16:50:45,298 - IDN - INFO - Train: Epoch =  13 | Ave Loss = 76.2867 | Train Samples = 8000.
+2021-04-23 16:50:51,751 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.0817; 0.9860[0m | [32mBest PSNR = 40.5590[0m | Gray PSNR = 40.2613
+2021-04-23 16:59:04,797 - IDN - INFO - Train: Epoch =  14 | Ave Loss = 75.6116 | Train Samples = 8000.
+2021-04-23 16:59:11,827 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.7351; 0.9869[0m | [32mBest PSNR = 40.7351[0m | Gray PSNR = 37.6614
+2021-04-23 17:07:26,081 - IDN - INFO - Train: Epoch =  15 | Ave Loss = 72.4597 | Train Samples = 8000.
+2021-04-23 17:07:33,177 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.8445; 0.9871[0m | [32mBest PSNR = 40.8445[0m | Gray PSNR = 39.2496
+2021-04-23 17:15:46,885 - IDN - INFO - Train: Epoch =  16 | Ave Loss = 72.4633 | Train Samples = 8000.
+2021-04-23 17:15:53,418 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.1263; 0.9820[0m | [32mBest PSNR = 40.8445[0m | Gray PSNR = 40.0079
+2021-04-23 17:24:06,794 - IDN - INFO - Train: Epoch =  17 | Ave Loss = 71.0966 | Train Samples = 8000.
+2021-04-23 17:24:13,238 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.4440; 0.9824[0m | [32mBest PSNR = 40.8445[0m | Gray PSNR = 41.1661
+2021-04-23 17:32:28,312 - IDN - INFO - Train: Epoch =  18 | Ave Loss = 66.6130 | Train Samples = 8000.
+2021-04-23 17:32:35,529 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.0094; 0.9876[0m | [32mBest PSNR = 41.0094[0m | Gray PSNR = 38.0933
+2021-04-23 17:41:03,894 - IDN - INFO - Train: Epoch =  19 | Ave Loss = 73.2632 | Train Samples = 8000.
+2021-04-23 17:41:10,428 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.3731; 0.9849[0m | [32mBest PSNR = 41.0094[0m | Gray PSNR = 41.1227
+2021-04-23 17:50:00,083 - IDN - INFO - Train: Epoch =  20 | Ave Loss = 65.8931 | Train Samples = 8000.
+2021-04-23 17:50:07,769 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.1320; 0.9879[0m | [32mBest PSNR = 41.1320[0m | Gray PSNR = 39.1550
+2021-04-23 17:58:44,810 - IDN - INFO - Train: Epoch =  21 | Ave Loss = 70.5117 | Train Samples = 8000.
+2021-04-23 17:58:51,317 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.3751; 0.9857[0m | [32mBest PSNR = 41.1320[0m | Gray PSNR = 39.0836
+2021-04-23 18:07:29,000 - IDN - INFO - Train: Epoch =  22 | Ave Loss = 66.9449 | Train Samples = 8000.
+2021-04-23 18:07:35,470 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.7227; 0.9876[0m | [32mBest PSNR = 41.1320[0m | Gray PSNR = 41.5890
+2021-04-23 18:16:15,666 - IDN - INFO - Train: Epoch =  23 | Ave Loss = 63.7697 | Train Samples = 8000.
+2021-04-23 18:16:22,747 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3143; 0.9884[0m | [32mBest PSNR = 41.3143[0m | Gray PSNR = 39.2563
+2021-04-23 18:24:44,131 - IDN - INFO - Train: Epoch =  24 | Ave Loss = 65.1569 | Train Samples = 8000.
+2021-04-23 18:24:50,646 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.2975; 0.9879[0m | [32mBest PSNR = 41.3143[0m | Gray PSNR = 38.9580
+2021-04-23 18:33:26,339 - IDN - INFO - Train: Epoch =  25 | Ave Loss = 71.3109 | Train Samples = 8000.
+2021-04-23 18:33:33,441 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 39.7789; 0.9841[0m | [32mBest PSNR = 41.3143[0m | Gray PSNR = 38.9550
+2021-04-23 18:42:17,850 - IDN - INFO - Train: Epoch =  26 | Ave Loss = 62.4861 | Train Samples = 8000.
+2021-04-23 18:42:25,267 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5172; 0.9881[0m | [32mBest PSNR = 41.5172[0m | Gray PSNR = 39.9360
+2021-04-23 18:50:41,805 - IDN - INFO - Train: Epoch =  27 | Ave Loss = 66.4352 | Train Samples = 8000.
+2021-04-23 18:50:48,291 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.4761; 0.9862[0m | [32mBest PSNR = 41.5172[0m | Gray PSNR = 40.3610
+2021-04-23 18:59:00,544 - IDN - INFO - Train: Epoch =  28 | Ave Loss = 68.3608 | Train Samples = 8000.
+2021-04-23 18:59:07,038 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.8135; 0.9876[0m | [32mBest PSNR = 41.5172[0m | Gray PSNR = 41.4588
+2021-04-23 19:07:20,035 - IDN - INFO - Train: Epoch =  29 | Ave Loss = 60.7913 | Train Samples = 8000.
+2021-04-23 19:07:26,531 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.2551; 0.9873[0m | [32mBest PSNR = 41.5172[0m | Gray PSNR = 41.0057
+2021-04-23 19:15:39,594 - IDN - INFO - Train: Epoch =  30 | Ave Loss = 58.4852 | Train Samples = 8000.
+2021-04-23 19:15:46,596 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6945; 0.9887[0m | [32mBest PSNR = 41.6945[0m | Gray PSNR = 38.7144
+2021-04-23 19:23:58,965 - IDN - INFO - Train: Epoch =  31 | Ave Loss = 59.0345 | Train Samples = 8000.
+2021-04-23 19:24:05,468 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6823; 0.9889[0m | [32mBest PSNR = 41.6945[0m | Gray PSNR = 39.5141
+2021-04-23 19:32:17,520 - IDN - INFO - Train: Epoch =  32 | Ave Loss = 64.4662 | Train Samples = 8000.
+2021-04-23 19:32:24,058 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.2805; 0.9844[0m | [32mBest PSNR = 41.6945[0m | Gray PSNR = 41.2632
+2021-04-23 19:40:36,461 - IDN - INFO - Train: Epoch =  33 | Ave Loss = 57.7934 | Train Samples = 8000.
+2021-04-23 19:40:42,954 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4383; 0.9884[0m | [32mBest PSNR = 41.6945[0m | Gray PSNR = 41.9453
+2021-04-23 19:48:56,648 - IDN - INFO - Train: Epoch =  34 | Ave Loss = 60.4086 | Train Samples = 8000.
+2021-04-23 19:49:03,164 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.1120; 0.9869[0m | [32mBest PSNR = 41.6945[0m | Gray PSNR = 42.2819
+2021-04-23 19:57:18,062 - IDN - INFO - Train: Epoch =  35 | Ave Loss = 60.0107 | Train Samples = 8000.
+2021-04-23 19:57:24,545 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.9228; 0.9880[0m | [32mBest PSNR = 41.6945[0m | Gray PSNR = 41.4068
+2021-04-23 20:05:37,119 - IDN - INFO - Train: Epoch =  36 | Ave Loss = 59.0352 | Train Samples = 8000.
+2021-04-23 20:05:44,098 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9328; 0.9892[0m | [32mBest PSNR = 41.9328[0m | Gray PSNR = 38.9906
+2021-04-23 20:13:58,189 - IDN - INFO - Train: Epoch =  37 | Ave Loss = 59.1501 | Train Samples = 8000.
+2021-04-23 20:14:04,834 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.0254; 0.9826[0m | [32mBest PSNR = 41.9328[0m | Gray PSNR = 41.6413
+2021-04-23 20:22:29,830 - IDN - INFO - Train: Epoch =  38 | Ave Loss = 63.7018 | Train Samples = 8000.
+2021-04-23 20:22:36,310 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8021; 0.9888[0m | [32mBest PSNR = 41.9328[0m | Gray PSNR = 39.1074
+2021-04-23 20:31:01,686 - IDN - INFO - Train: Epoch =  39 | Ave Loss = 59.8185 | Train Samples = 8000.
+2021-04-23 20:31:08,387 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 38.6225; 0.9839[0m | [32mBest PSNR = 41.9328[0m | Gray PSNR = 39.7722
+2021-04-23 20:39:28,104 - IDN - INFO - Train: Epoch =  40 | Ave Loss = 59.1938 | Train Samples = 8000.
+2021-04-23 20:39:34,593 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.1165; 0.9873[0m | [32mBest PSNR = 41.9328[0m | Gray PSNR = 41.5525
+2021-04-23 20:47:51,398 - IDN - INFO - Train: Epoch =  41 | Ave Loss = 61.0925 | Train Samples = 8000.
+2021-04-23 20:47:57,870 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.0354; 0.9854[0m | [32mBest PSNR = 41.9328[0m | Gray PSNR = 41.1820
+2021-04-23 20:56:16,591 - IDN - INFO - Train: Epoch =  42 | Ave Loss = 61.0916 | Train Samples = 8000.
+2021-04-23 20:56:23,684 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9721; 0.9889[0m | [32mBest PSNR = 41.9721[0m | Gray PSNR = 39.5826
+2021-04-23 21:04:34,676 - IDN - INFO - Train: Epoch =  43 | Ave Loss = 57.1807 | Train Samples = 8000.
+2021-04-23 21:04:41,223 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8850; 0.9890[0m | [32mBest PSNR = 41.9721[0m | Gray PSNR = 41.4946
+2021-04-23 21:12:55,685 - IDN - INFO - Train: Epoch =  44 | Ave Loss = 59.4451 | Train Samples = 8000.
+2021-04-23 21:13:02,179 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.1257; 0.9871[0m | [32mBest PSNR = 41.9721[0m | Gray PSNR = 40.5836
+2021-04-23 21:21:13,456 - IDN - INFO - Train: Epoch =  45 | Ave Loss = 53.4995 | Train Samples = 8000.
+2021-04-23 21:21:20,503 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0375; 0.9889[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 39.7152
+2021-04-23 21:29:40,914 - IDN - INFO - Train: Epoch =  46 | Ave Loss = 61.5544 | Train Samples = 8000.
+2021-04-23 21:29:47,370 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6978; 0.9891[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 40.6329
+2021-04-23 21:37:58,963 - IDN - INFO - Train: Epoch =  47 | Ave Loss = 61.5341 | Train Samples = 8000.
+2021-04-23 21:38:05,418 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.0374; 0.9874[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 42.2410
+2021-04-23 21:46:15,945 - IDN - INFO - Train: Epoch =  48 | Ave Loss = 54.9028 | Train Samples = 8000.
+2021-04-23 21:46:22,450 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6721; 0.9885[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 42.5348
+2021-04-23 21:54:33,106 - IDN - INFO - Train: Epoch =  49 | Ave Loss = 58.4058 | Train Samples = 8000.
+2021-04-23 21:54:39,591 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8729; 0.9889[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 39.8266
+2021-04-23 22:02:50,663 - IDN - INFO - Train: Epoch =  50 | Ave Loss = 53.0559 | Train Samples = 8000.
+2021-04-23 22:02:58,138 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6654; 0.9892[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 42.5037
+2021-04-23 22:11:09,280 - IDN - INFO - Train: Epoch =  51 | Ave Loss = 57.4213 | Train Samples = 8000.
+2021-04-23 22:11:15,751 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8127; 0.9890[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 39.7710
+2021-04-23 22:19:26,003 - IDN - INFO - Train: Epoch =  52 | Ave Loss = 62.4426 | Train Samples = 8000.
+2021-04-23 22:19:32,462 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5745; 0.9884[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 41.9320
+2021-04-23 22:27:42,986 - IDN - INFO - Train: Epoch =  53 | Ave Loss = 55.3990 | Train Samples = 8000.
+2021-04-23 22:27:49,515 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4799; 0.9883[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 41.6369
+2021-04-23 22:36:00,423 - IDN - INFO - Train: Epoch =  54 | Ave Loss = 55.7578 | Train Samples = 8000.
+2021-04-23 22:36:06,914 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.7304; 0.9881[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 41.2529
+2021-04-23 22:44:17,236 - IDN - INFO - Train: Epoch =  55 | Ave Loss = 56.8604 | Train Samples = 8000.
+2021-04-23 22:44:23,683 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6098; 0.9876[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 41.9228
+2021-04-23 22:52:35,593 - IDN - INFO - Train: Epoch =  56 | Ave Loss = 56.6205 | Train Samples = 8000.
+2021-04-23 22:52:42,089 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4865; 0.9877[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 38.9212
+2021-04-23 23:00:53,436 - IDN - INFO - Train: Epoch =  57 | Ave Loss = 54.0195 | Train Samples = 8000.
+2021-04-23 23:00:59,908 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0033; 0.9888[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 40.8510
+2021-04-23 23:09:11,159 - IDN - INFO - Train: Epoch =  58 | Ave Loss = 54.3538 | Train Samples = 8000.
+2021-04-23 23:09:17,633 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5133; 0.9888[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 41.2826
+2021-04-23 23:17:27,194 - IDN - INFO - Train: Epoch =  59 | Ave Loss = 53.5166 | Train Samples = 8000.
+2021-04-23 23:17:33,645 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8076; 0.9891[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 39.2394
+2021-04-23 23:25:44,422 - IDN - INFO - Train: Epoch =  60 | Ave Loss = 55.7174 | Train Samples = 8000.
+2021-04-23 23:25:50,890 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5515; 0.9888[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 42.4743
+2021-04-23 23:34:00,941 - IDN - INFO - Train: Epoch =  61 | Ave Loss = 55.2339 | Train Samples = 8000.
+2021-04-23 23:34:07,409 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5617; 0.9886[0m | [32mBest PSNR = 42.0375[0m | Gray PSNR = 41.5841
+2021-04-23 23:42:16,509 - IDN - INFO - Train: Epoch =  62 | Ave Loss = 59.9289 | Train Samples = 8000.
+2021-04-23 23:42:23,565 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1278; 0.9896[0m | [32mBest PSNR = 42.1278[0m | Gray PSNR = 39.8841
+2021-04-23 23:50:33,910 - IDN - INFO - Train: Epoch =  63 | Ave Loss = 57.3212 | Train Samples = 8000.
+2021-04-23 23:50:40,345 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7625; 0.9887[0m | [32mBest PSNR = 42.1278[0m | Gray PSNR = 40.8629
+2021-04-23 23:58:50,367 - IDN - INFO - Train: Epoch =  64 | Ave Loss = 55.6656 | Train Samples = 8000.
+2021-04-23 23:58:56,819 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0056; 0.9895[0m | [32mBest PSNR = 42.1278[0m | Gray PSNR = 42.5153
+2021-04-24 00:07:07,459 - IDN - INFO - Train: Epoch =  65 | Ave Loss = 96.8080 | Train Samples = 8000.
+2021-04-24 00:07:13,904 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7677; 0.9893[0m | [32mBest PSNR = 42.1278[0m | Gray PSNR = 42.5030
+2021-04-24 00:15:23,918 - IDN - INFO - Train: Epoch =  66 | Ave Loss = 53.9587 | Train Samples = 8000.
+2021-04-24 00:15:30,884 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1837; 0.9896[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 39.8993
+2021-04-24 00:23:41,463 - IDN - INFO - Train: Epoch =  67 | Ave Loss = 53.5151 | Train Samples = 8000.
+2021-04-24 00:23:47,940 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5693; 0.9885[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 41.8533
+2021-04-24 00:31:57,438 - IDN - INFO - Train: Epoch =  68 | Ave Loss = 55.5447 | Train Samples = 8000.
+2021-04-24 00:32:03,937 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3392; 0.9888[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 42.2055
+2021-04-24 00:40:14,466 - IDN - INFO - Train: Epoch =  69 | Ave Loss = 55.9940 | Train Samples = 8000.
+2021-04-24 00:40:20,963 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.4668; 0.9871[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 42.1008
+2021-04-24 00:48:29,864 - IDN - INFO - Train: Epoch =  70 | Ave Loss = 55.0206 | Train Samples = 8000.
+2021-04-24 00:48:36,312 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0900; 0.9896[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 39.1908
+2021-04-24 00:56:45,689 - IDN - INFO - Train: Epoch =  71 | Ave Loss = 54.5377 | Train Samples = 8000.
+2021-04-24 00:56:52,148 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4003; 0.9872[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 42.3440
+2021-04-24 01:05:01,713 - IDN - INFO - Train: Epoch =  72 | Ave Loss = 54.6382 | Train Samples = 8000.
+2021-04-24 01:05:08,221 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9466; 0.9897[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 39.6741
+2021-04-24 01:13:17,914 - IDN - INFO - Train: Epoch =  73 | Ave Loss = 54.5888 | Train Samples = 8000.
+2021-04-24 01:13:24,346 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9975; 0.9899[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 42.5218
+2021-04-24 01:21:34,639 - IDN - INFO - Train: Epoch =  74 | Ave Loss = 53.8475 | Train Samples = 8000.
+2021-04-24 01:21:41,120 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8753; 0.9894[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 40.9847
+2021-04-24 01:29:51,296 - IDN - INFO - Train: Epoch =  75 | Ave Loss = 54.9517 | Train Samples = 8000.
+2021-04-24 01:29:57,787 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9791; 0.9894[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 40.0284
+2021-04-24 01:38:06,825 - IDN - INFO - Train: Epoch =  76 | Ave Loss = 55.4588 | Train Samples = 8000.
+2021-04-24 01:38:13,264 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8803; 0.9891[0m | [32mBest PSNR = 42.1837[0m | Gray PSNR = 42.3274
+2021-04-24 01:46:22,740 - IDN - INFO - Train: Epoch =  77 | Ave Loss = 55.2284 | Train Samples = 8000.
+2021-04-24 01:46:29,782 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3652; 0.9903[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.6269
+2021-04-24 01:54:39,186 - IDN - INFO - Train: Epoch =  78 | Ave Loss = 54.9738 | Train Samples = 8000.
+2021-04-24 01:54:45,655 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.2913; 0.9885[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.7587
+2021-04-24 02:02:54,996 - IDN - INFO - Train: Epoch =  79 | Ave Loss = 50.3616 | Train Samples = 8000.
+2021-04-24 02:03:01,462 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9176; 0.9898[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.6968
+2021-04-24 02:11:09,135 - IDN - INFO - Train: Epoch =  80 | Ave Loss = 54.4344 | Train Samples = 8000.
+2021-04-24 02:11:15,599 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9621; 0.9895[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.0829
+2021-04-24 02:19:22,951 - IDN - INFO - Train: Epoch =  81 | Ave Loss = 54.5304 | Train Samples = 8000.
+2021-04-24 02:19:29,431 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4171; 0.9893[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.8891
+2021-04-24 02:27:35,982 - IDN - INFO - Train: Epoch =  82 | Ave Loss = 54.5413 | Train Samples = 8000.
+2021-04-24 02:27:42,475 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0740; 0.9895[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.2506
+2021-04-24 02:35:50,067 - IDN - INFO - Train: Epoch =  83 | Ave Loss = 53.7395 | Train Samples = 8000.
+2021-04-24 02:35:56,593 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0769; 0.9896[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.8896
+2021-04-24 02:44:04,140 - IDN - INFO - Train: Epoch =  84 | Ave Loss = 52.9356 | Train Samples = 8000.
+2021-04-24 02:44:10,592 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4457; 0.9888[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.4180
+2021-04-24 02:52:18,776 - IDN - INFO - Train: Epoch =  85 | Ave Loss = 51.2357 | Train Samples = 8000.
+2021-04-24 02:52:25,350 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.1296; 0.9856[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.5279
+2021-04-24 03:00:32,938 - IDN - INFO - Train: Epoch =  86 | Ave Loss = 54.3709 | Train Samples = 8000.
+2021-04-24 03:00:39,374 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.5426; 0.9864[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.7098
+2021-04-24 03:08:47,097 - IDN - INFO - Train: Epoch =  87 | Ave Loss = 56.3620 | Train Samples = 8000.
+2021-04-24 03:08:53,595 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4408; 0.9895[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.7994
+2021-04-24 03:17:01,326 - IDN - INFO - Train: Epoch =  88 | Ave Loss = 51.9290 | Train Samples = 8000.
+2021-04-24 03:17:07,794 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5353; 0.9887[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.9179
+2021-04-24 03:25:14,983 - IDN - INFO - Train: Epoch =  89 | Ave Loss = 57.4263 | Train Samples = 8000.
+2021-04-24 03:25:21,427 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7726; 0.9890[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.5551
+2021-04-24 03:33:28,558 - IDN - INFO - Train: Epoch =  90 | Ave Loss = 52.8285 | Train Samples = 8000.
+2021-04-24 03:33:35,011 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7532; 0.9890[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.1533
+2021-04-24 03:41:42,556 - IDN - INFO - Train: Epoch =  91 | Ave Loss = 56.7814 | Train Samples = 8000.
+2021-04-24 03:41:48,998 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6163; 0.9893[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 39.6013
+2021-04-24 03:49:56,569 - IDN - INFO - Train: Epoch =  92 | Ave Loss = 54.1291 | Train Samples = 8000.
+2021-04-24 03:50:03,059 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.9680; 0.9880[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.8046
+2021-04-24 03:58:09,684 - IDN - INFO - Train: Epoch =  93 | Ave Loss = 51.7873 | Train Samples = 8000.
+2021-04-24 03:58:16,149 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9369; 0.9895[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.8276
+2021-04-24 04:06:22,975 - IDN - INFO - Train: Epoch =  94 | Ave Loss = 55.9575 | Train Samples = 8000.
+2021-04-24 04:06:29,498 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5549; 0.9890[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.9893
+2021-04-24 04:14:36,972 - IDN - INFO - Train: Epoch =  95 | Ave Loss = 51.2444 | Train Samples = 8000.
+2021-04-24 04:14:43,435 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9645; 0.9895[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.6674
+2021-04-24 04:22:50,535 - IDN - INFO - Train: Epoch =  96 | Ave Loss = 51.9351 | Train Samples = 8000.
+2021-04-24 04:22:56,968 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0558; 0.9896[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.3970
+2021-04-24 04:31:05,442 - IDN - INFO - Train: Epoch =  97 | Ave Loss = 53.6504 | Train Samples = 8000.
+2021-04-24 04:31:11,893 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9573; 0.9896[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.9897
+2021-04-24 04:39:18,672 - IDN - INFO - Train: Epoch =  98 | Ave Loss = 54.8574 | Train Samples = 8000.
+2021-04-24 04:39:25,150 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8834; 0.9886[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.4406
+2021-04-24 04:47:31,640 - IDN - INFO - Train: Epoch =  99 | Ave Loss = 53.8587 | Train Samples = 8000.
+2021-04-24 04:47:38,208 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8134; 0.9892[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.6230
+2021-04-24 04:55:45,270 - IDN - INFO - Train: Epoch = 100 | Ave Loss = 52.0454 | Train Samples = 8000.
+2021-04-24 04:55:51,884 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7378; 0.9892[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.5061
+2021-04-24 05:03:58,302 - IDN - INFO - Train: Epoch = 101 | Ave Loss = 56.9722 | Train Samples = 8000.
+2021-04-24 05:04:04,804 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0326; 0.9899[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.6951
+2021-04-24 05:12:11,819 - IDN - INFO - Train: Epoch = 102 | Ave Loss = 55.0441 | Train Samples = 8000.
+2021-04-24 05:12:18,277 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3104; 0.9887[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.5752
+2021-04-24 05:20:25,936 - IDN - INFO - Train: Epoch = 103 | Ave Loss = 48.6077 | Train Samples = 8000.
+2021-04-24 05:20:32,394 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2988; 0.9902[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.1920
+2021-04-24 05:28:40,084 - IDN - INFO - Train: Epoch = 104 | Ave Loss = 50.4409 | Train Samples = 8000.
+2021-04-24 05:28:46,613 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0880; 0.9899[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 39.9783
+2021-04-24 05:36:53,056 - IDN - INFO - Train: Epoch = 105 | Ave Loss = 53.6763 | Train Samples = 8000.
+2021-04-24 05:36:59,526 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2176; 0.9900[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.3056
+2021-04-24 05:45:06,405 - IDN - INFO - Train: Epoch = 106 | Ave Loss = 55.1946 | Train Samples = 8000.
+2021-04-24 05:45:12,912 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4658; 0.9859[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 39.8887
+2021-04-24 05:53:20,382 - IDN - INFO - Train: Epoch = 107 | Ave Loss = 55.5127 | Train Samples = 8000.
+2021-04-24 05:53:26,959 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0713; 0.9899[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 42.9709
+2021-04-24 06:01:34,597 - IDN - INFO - Train: Epoch = 108 | Ave Loss = 55.2412 | Train Samples = 8000.
+2021-04-24 06:01:41,067 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2147; 0.9902[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 39.6729
+2021-04-24 06:09:48,174 - IDN - INFO - Train: Epoch = 109 | Ave Loss = 50.2526 | Train Samples = 8000.
+2021-04-24 06:09:54,617 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9462; 0.9893[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 40.1533
+2021-04-24 06:18:01,296 - IDN - INFO - Train: Epoch = 110 | Ave Loss = 52.6724 | Train Samples = 8000.
+2021-04-24 06:18:07,747 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8588; 0.9887[0m | [32mBest PSNR = 42.3652[0m | Gray PSNR = 41.6458
+2021-04-24 06:26:15,528 - IDN - INFO - Train: Epoch = 111 | Ave Loss = 53.0632 | Train Samples = 8000.
+2021-04-24 06:26:22,538 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3898; 0.9904[0m | [32mBest PSNR = 42.3898[0m | Gray PSNR = 41.3825
+2021-04-24 06:34:30,767 - IDN - INFO - Train: Epoch = 112 | Ave Loss = 50.2319 | Train Samples = 8000.
+2021-04-24 06:34:37,233 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0814; 0.9900[0m | [32mBest PSNR = 42.3898[0m | Gray PSNR = 42.0498
+2021-04-24 06:42:44,180 - IDN - INFO - Train: Epoch = 113 | Ave Loss = 54.7452 | Train Samples = 8000.
+2021-04-24 06:42:50,594 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 40.4776; 0.9871[0m | [32mBest PSNR = 42.3898[0m | Gray PSNR = 40.8835
+2021-04-24 06:50:57,180 - IDN - INFO - Train: Epoch = 114 | Ave Loss = 50.9981 | Train Samples = 8000.
+2021-04-24 06:51:03,652 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0881; 0.9900[0m | [32mBest PSNR = 42.3898[0m | Gray PSNR = 43.1105
+2021-04-24 06:59:10,135 - IDN - INFO - Train: Epoch = 115 | Ave Loss = 50.8315 | Train Samples = 8000.
+2021-04-24 06:59:16,612 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0270; 0.9896[0m | [32mBest PSNR = 42.3898[0m | Gray PSNR = 42.8036
+2021-04-24 07:07:23,405 - IDN - INFO - Train: Epoch = 116 | Ave Loss = 49.9496 | Train Samples = 8000.
+2021-04-24 07:07:29,862 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9987; 0.9901[0m | [32mBest PSNR = 42.3898[0m | Gray PSNR = 42.9903
+2021-04-24 07:15:37,101 - IDN - INFO - Train: Epoch = 117 | Ave Loss = 51.9148 | Train Samples = 8000.
+2021-04-24 07:15:44,005 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3901; 0.9903[0m | [32mBest PSNR = 42.3901[0m | Gray PSNR = 39.4267
+2021-04-24 07:23:50,625 - IDN - INFO - Train: Epoch = 118 | Ave Loss = 52.7995 | Train Samples = 8000.
+2021-04-24 07:23:57,074 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2019; 0.9892[0m | [32mBest PSNR = 42.3901[0m | Gray PSNR = 38.0680
+2021-04-24 07:32:03,676 - IDN - INFO - Train: Epoch = 119 | Ave Loss = 53.6020 | Train Samples = 8000.
+2021-04-24 07:32:10,130 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7180; 0.9890[0m | [32mBest PSNR = 42.3901[0m | Gray PSNR = 42.6822
+2021-04-24 07:40:17,501 - IDN - INFO - Train: Epoch = 120 | Ave Loss = 53.0606 | Train Samples = 8000.
+2021-04-24 07:40:24,062 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9716; 0.9895[0m | [32mBest PSNR = 42.3901[0m | Gray PSNR = 42.7187
+2021-04-24 07:48:32,206 - IDN - INFO - Train: Epoch = 121 | Ave Loss = 54.8428 | Train Samples = 8000.
+2021-04-24 07:48:38,749 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6766; 0.9891[0m | [32mBest PSNR = 42.3901[0m | Gray PSNR = 42.7326
+2021-04-24 07:56:47,320 - IDN - INFO - Train: Epoch = 122 | Ave Loss = 53.1062 | Train Samples = 8000.
+2021-04-24 07:56:54,312 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5086; 0.9905[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 37.9817
+2021-04-24 08:05:01,554 - IDN - INFO - Train: Epoch = 123 | Ave Loss = 52.7735 | Train Samples = 8000.
+2021-04-24 08:05:08,045 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7522; 0.9890[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.9855
+2021-04-24 08:13:15,346 - IDN - INFO - Train: Epoch = 124 | Ave Loss = 52.6501 | Train Samples = 8000.
+2021-04-24 08:13:21,832 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0854; 0.9900[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 40.9371
+2021-04-24 08:21:29,848 - IDN - INFO - Train: Epoch = 125 | Ave Loss = 48.5952 | Train Samples = 8000.
+2021-04-24 08:21:36,421 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4066; 0.9889[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.2167
+2021-04-24 08:29:44,153 - IDN - INFO - Train: Epoch = 126 | Ave Loss = 51.9890 | Train Samples = 8000.
+2021-04-24 08:29:50,609 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3078; 0.9903[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.3971
+2021-04-24 08:37:58,472 - IDN - INFO - Train: Epoch = 127 | Ave Loss = 52.6315 | Train Samples = 8000.
+2021-04-24 08:38:04,930 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2339; 0.9902[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.5821
+2021-04-24 08:46:11,964 - IDN - INFO - Train: Epoch = 128 | Ave Loss = 52.2695 | Train Samples = 8000.
+2021-04-24 08:46:18,487 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3116; 0.9899[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.9314
+2021-04-24 08:54:26,543 - IDN - INFO - Train: Epoch = 129 | Ave Loss = 52.3147 | Train Samples = 8000.
+2021-04-24 08:54:32,992 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9946; 0.9886[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.0866
+2021-04-24 09:02:40,278 - IDN - INFO - Train: Epoch = 130 | Ave Loss = 47.3153 | Train Samples = 8000.
+2021-04-24 09:02:46,876 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7521; 0.9898[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 43.0111
+2021-04-24 09:10:54,061 - IDN - INFO - Train: Epoch = 131 | Ave Loss = 50.2875 | Train Samples = 8000.
+2021-04-24 09:11:00,501 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0360; 0.9897[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.4601
+2021-04-24 09:19:07,267 - IDN - INFO - Train: Epoch = 132 | Ave Loss = 51.7635 | Train Samples = 8000.
+2021-04-24 09:19:13,742 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0426; 0.9893[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.1602
+2021-04-24 09:27:21,458 - IDN - INFO - Train: Epoch = 133 | Ave Loss = 49.0027 | Train Samples = 8000.
+2021-04-24 09:27:27,915 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7071; 0.9900[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 40.5871
+2021-04-24 09:35:35,108 - IDN - INFO - Train: Epoch = 134 | Ave Loss = 53.0352 | Train Samples = 8000.
+2021-04-24 09:35:41,547 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1378; 0.9898[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.6499
+2021-04-24 09:43:48,162 - IDN - INFO - Train: Epoch = 135 | Ave Loss = 55.0807 | Train Samples = 8000.
+2021-04-24 09:43:54,624 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1794; 0.9899[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.7233
+2021-04-24 09:52:01,422 - IDN - INFO - Train: Epoch = 136 | Ave Loss = 54.6258 | Train Samples = 8000.
+2021-04-24 09:52:07,874 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8631; 0.9890[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.9533
+2021-04-24 10:00:15,088 - IDN - INFO - Train: Epoch = 137 | Ave Loss = 53.9394 | Train Samples = 8000.
+2021-04-24 10:00:21,574 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9694; 0.9888[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.9236
+2021-04-24 10:08:28,566 - IDN - INFO - Train: Epoch = 138 | Ave Loss = 53.5973 | Train Samples = 8000.
+2021-04-24 10:08:35,041 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1629; 0.9901[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.9883
+2021-04-24 10:16:42,178 - IDN - INFO - Train: Epoch = 139 | Ave Loss = 48.7633 | Train Samples = 8000.
+2021-04-24 10:16:48,687 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2308; 0.9901[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 40.9555
+2021-04-24 10:24:55,792 - IDN - INFO - Train: Epoch = 140 | Ave Loss = 53.3442 | Train Samples = 8000.
+2021-04-24 10:25:02,273 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2379; 0.9899[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.7358
+2021-04-24 10:33:09,471 - IDN - INFO - Train: Epoch = 141 | Ave Loss = 50.4060 | Train Samples = 8000.
+2021-04-24 10:33:15,931 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4513; 0.9904[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 40.3876
+2021-04-24 10:41:21,880 - IDN - INFO - Train: Epoch = 142 | Ave Loss = 49.2800 | Train Samples = 8000.
+2021-04-24 10:41:28,420 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3161; 0.9902[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.9577
+2021-04-24 10:49:35,231 - IDN - INFO - Train: Epoch = 143 | Ave Loss = 51.1107 | Train Samples = 8000.
+2021-04-24 10:49:41,719 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4309; 0.9905[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 40.2228
+2021-04-24 10:57:48,785 - IDN - INFO - Train: Epoch = 144 | Ave Loss = 49.8953 | Train Samples = 8000.
+2021-04-24 10:57:55,278 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 36.0238; 0.9834[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 42.0297
+2021-04-24 11:06:02,251 - IDN - INFO - Train: Epoch = 145 | Ave Loss = 49.6017 | Train Samples = 8000.
+2021-04-24 11:06:08,768 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9519; 0.9885[0m | [32mBest PSNR = 42.5086[0m | Gray PSNR = 41.4888
+2021-04-24 11:14:17,179 - IDN - INFO - Train: Epoch = 146 | Ave Loss = 47.3526 | Train Samples = 8000.
+2021-04-24 11:14:24,202 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5998; 0.9906[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 41.1728
+2021-04-24 11:22:31,613 - IDN - INFO - Train: Epoch = 147 | Ave Loss = 52.3425 | Train Samples = 8000.
+2021-04-24 11:22:38,098 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8965; 0.9891[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.6101
+2021-04-24 11:30:51,104 - IDN - INFO - Train: Epoch = 148 | Ave Loss = 53.4228 | Train Samples = 8000.
+2021-04-24 11:30:57,591 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4884; 0.9890[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.3543
+2021-04-24 11:39:09,546 - IDN - INFO - Train: Epoch = 149 | Ave Loss = 54.7804 | Train Samples = 8000.
+2021-04-24 11:39:16,044 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5618; 0.9889[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 39.7814
+2021-04-24 11:47:27,099 - IDN - INFO - Train: Epoch = 150 | Ave Loss = 52.4189 | Train Samples = 8000.
+2021-04-24 11:47:33,689 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2657; 0.9899[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 40.6207
+2021-04-24 11:55:44,182 - IDN - INFO - Train: Epoch = 151 | Ave Loss = 50.2982 | Train Samples = 8000.
+2021-04-24 11:55:50,663 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0308; 0.9894[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.7156
+2021-04-24 12:04:01,528 - IDN - INFO - Train: Epoch = 152 | Ave Loss = 55.0441 | Train Samples = 8000.
+2021-04-24 12:04:08,079 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5329; 0.9905[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 40.9307
+2021-04-24 12:12:18,225 - IDN - INFO - Train: Epoch = 153 | Ave Loss = 50.4699 | Train Samples = 8000.
+2021-04-24 12:12:24,755 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2078; 0.9897[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.2696
+2021-04-24 12:20:36,685 - IDN - INFO - Train: Epoch = 154 | Ave Loss = 52.8012 | Train Samples = 8000.
+2021-04-24 12:20:43,216 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2777; 0.9901[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.0233
+2021-04-24 12:28:54,333 - IDN - INFO - Train: Epoch = 155 | Ave Loss = 52.5397 | Train Samples = 8000.
+2021-04-24 12:29:00,848 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2757; 0.9902[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.8104
+2021-04-24 12:37:11,137 - IDN - INFO - Train: Epoch = 156 | Ave Loss = 53.2058 | Train Samples = 8000.
+2021-04-24 12:37:17,675 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7462; 0.9892[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.2836
+2021-04-24 12:45:28,554 - IDN - INFO - Train: Epoch = 157 | Ave Loss = 52.8296 | Train Samples = 8000.
+2021-04-24 12:45:35,064 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1219; 0.9899[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.3258
+2021-04-24 12:53:48,994 - IDN - INFO - Train: Epoch = 158 | Ave Loss = 49.4061 | Train Samples = 8000.
+2021-04-24 12:53:55,529 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4870; 0.9906[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 40.9205
+2021-04-24 13:02:05,865 - IDN - INFO - Train: Epoch = 159 | Ave Loss = 50.4729 | Train Samples = 8000.
+2021-04-24 13:02:12,401 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5279; 0.9906[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 40.7436
+2021-04-24 13:10:22,556 - IDN - INFO - Train: Epoch = 160 | Ave Loss = 49.5913 | Train Samples = 8000.
+2021-04-24 13:10:29,046 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4945; 0.9903[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 41.1411
+2021-04-24 13:18:45,508 - IDN - INFO - Train: Epoch = 161 | Ave Loss = 48.5253 | Train Samples = 8000.
+2021-04-24 13:18:51,980 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3131; 0.9904[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 43.1323
+2021-04-24 13:27:01,955 - IDN - INFO - Train: Epoch = 162 | Ave Loss = 51.8620 | Train Samples = 8000.
+2021-04-24 13:27:08,458 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5496; 0.9906[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 38.3648
+2021-04-24 13:35:19,260 - IDN - INFO - Train: Epoch = 163 | Ave Loss = 49.9613 | Train Samples = 8000.
+2021-04-24 13:35:25,761 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0419; 0.9893[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.6527
+2021-04-24 13:43:39,877 - IDN - INFO - Train: Epoch = 164 | Ave Loss = 52.5548 | Train Samples = 8000.
+2021-04-24 13:43:46,353 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.1939; 0.9885[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.6043
+2021-04-24 13:51:59,758 - IDN - INFO - Train: Epoch = 165 | Ave Loss = 50.9093 | Train Samples = 8000.
+2021-04-24 13:52:06,283 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4723; 0.9904[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 43.0892
+2021-04-24 14:00:20,198 - IDN - INFO - Train: Epoch = 166 | Ave Loss = 52.8012 | Train Samples = 8000.
+2021-04-24 14:00:26,751 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2160; 0.9898[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 39.6721
+2021-04-24 14:08:40,728 - IDN - INFO - Train: Epoch = 167 | Ave Loss = 51.3539 | Train Samples = 8000.
+2021-04-24 14:08:47,226 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4927; 0.9869[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.4545
+2021-04-24 14:17:01,567 - IDN - INFO - Train: Epoch = 168 | Ave Loss = 53.8722 | Train Samples = 8000.
+2021-04-24 14:17:08,089 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6653; 0.9889[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 43.0575
+2021-04-24 14:25:22,520 - IDN - INFO - Train: Epoch = 169 | Ave Loss = 50.1043 | Train Samples = 8000.
+2021-04-24 14:25:29,024 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8684; 0.9880[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 41.5903
+2021-04-24 14:33:42,652 - IDN - INFO - Train: Epoch = 170 | Ave Loss = 47.5929 | Train Samples = 8000.
+2021-04-24 14:33:49,198 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4633; 0.9905[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 43.1823
+2021-04-24 14:42:04,517 - IDN - INFO - Train: Epoch = 171 | Ave Loss = 48.8845 | Train Samples = 8000.
+2021-04-24 14:42:11,027 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4582; 0.9900[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 38.3363
+2021-04-24 14:50:24,663 - IDN - INFO - Train: Epoch = 172 | Ave Loss = 51.5570 | Train Samples = 8000.
+2021-04-24 14:50:31,172 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4009; 0.9902[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 40.9282
+2021-04-24 14:58:45,917 - IDN - INFO - Train: Epoch = 173 | Ave Loss = 51.9548 | Train Samples = 8000.
+2021-04-24 14:58:52,443 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3724; 0.9900[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 39.5998
+2021-04-24 15:07:07,225 - IDN - INFO - Train: Epoch = 174 | Ave Loss = 50.7448 | Train Samples = 8000.
+2021-04-24 15:07:13,754 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3238; 0.9903[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 43.0618
+2021-04-24 15:15:28,051 - IDN - INFO - Train: Epoch = 175 | Ave Loss = 49.0450 | Train Samples = 8000.
+2021-04-24 15:15:34,542 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3489; 0.9903[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.1634
+2021-04-24 15:23:48,792 - IDN - INFO - Train: Epoch = 176 | Ave Loss = 49.2116 | Train Samples = 8000.
+2021-04-24 15:23:55,308 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2738; 0.9902[0m | [32mBest PSNR = 42.5998[0m | Gray PSNR = 42.5860
+2021-04-24 15:32:10,028 - IDN - INFO - Train: Epoch = 177 | Ave Loss = 51.0367 | Train Samples = 8000.
+2021-04-24 15:32:17,090 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6475; 0.9908[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 40.6539
+2021-04-24 15:40:31,664 - IDN - INFO - Train: Epoch = 178 | Ave Loss = 51.1866 | Train Samples = 8000.
+2021-04-24 15:40:38,162 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5733; 0.9883[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.5961
+2021-04-24 15:48:52,664 - IDN - INFO - Train: Epoch = 179 | Ave Loss = 54.3108 | Train Samples = 8000.
+2021-04-24 15:48:59,172 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4242; 0.9903[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 37.5630
+2021-04-24 15:57:13,819 - IDN - INFO - Train: Epoch = 180 | Ave Loss = 51.9621 | Train Samples = 8000.
+2021-04-24 15:57:20,321 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1094; 0.9900[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.4907
+2021-04-24 16:05:35,270 - IDN - INFO - Train: Epoch = 181 | Ave Loss = 50.6446 | Train Samples = 8000.
+2021-04-24 16:05:41,781 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5373; 0.9903[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.7605
+2021-04-24 16:13:56,114 - IDN - INFO - Train: Epoch = 182 | Ave Loss = 51.8737 | Train Samples = 8000.
+2021-04-24 16:14:02,646 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.7683; 0.9889[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 43.1828
+2021-04-24 16:22:16,999 - IDN - INFO - Train: Epoch = 183 | Ave Loss = 52.2983 | Train Samples = 8000.
+2021-04-24 16:22:23,514 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5798; 0.9907[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 40.2537
+2021-04-24 16:30:36,760 - IDN - INFO - Train: Epoch = 184 | Ave Loss = 52.5403 | Train Samples = 8000.
+2021-04-24 16:30:43,310 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0927; 0.9901[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9955
+2021-04-24 16:38:57,121 - IDN - INFO - Train: Epoch = 185 | Ave Loss = 51.0529 | Train Samples = 8000.
+2021-04-24 16:39:03,641 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2556; 0.9897[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9742
+2021-04-24 16:47:18,848 - IDN - INFO - Train: Epoch = 186 | Ave Loss = 50.4534 | Train Samples = 8000.
+2021-04-24 16:47:25,370 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4490; 0.9906[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 40.3657
+2021-04-24 16:55:40,017 - IDN - INFO - Train: Epoch = 187 | Ave Loss = 52.3927 | Train Samples = 8000.
+2021-04-24 16:55:46,567 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3438; 0.9902[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.7706
+2021-04-24 17:04:00,690 - IDN - INFO - Train: Epoch = 188 | Ave Loss = 49.2625 | Train Samples = 8000.
+2021-04-24 17:04:07,202 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3113; 0.9895[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 40.4482
+2021-04-24 17:12:21,822 - IDN - INFO - Train: Epoch = 189 | Ave Loss = 51.9946 | Train Samples = 8000.
+2021-04-24 17:12:28,358 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2150; 0.9899[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.7875
+2021-04-24 17:20:42,823 - IDN - INFO - Train: Epoch = 190 | Ave Loss = 51.7076 | Train Samples = 8000.
+2021-04-24 17:20:49,422 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3524; 0.9899[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.1293
+2021-04-24 17:29:02,910 - IDN - INFO - Train: Epoch = 191 | Ave Loss = 53.6012 | Train Samples = 8000.
+2021-04-24 17:29:09,452 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5519; 0.9907[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 43.0964
+2021-04-24 17:37:23,141 - IDN - INFO - Train: Epoch = 192 | Ave Loss = 49.2795 | Train Samples = 8000.
+2021-04-24 17:37:29,673 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4388; 0.9905[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9124
+2021-04-24 17:45:43,548 - IDN - INFO - Train: Epoch = 193 | Ave Loss = 50.4040 | Train Samples = 8000.
+2021-04-24 17:45:50,054 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4409; 0.9904[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9907
+2021-04-24 17:54:04,250 - IDN - INFO - Train: Epoch = 194 | Ave Loss = 49.6494 | Train Samples = 8000.
+2021-04-24 17:54:10,765 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.8493; 0.9892[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.7809
+2021-04-24 18:02:24,553 - IDN - INFO - Train: Epoch = 195 | Ave Loss = 51.7740 | Train Samples = 8000.
+2021-04-24 18:02:31,051 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4160; 0.9905[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 40.5674
+2021-04-24 18:10:46,485 - IDN - INFO - Train: Epoch = 196 | Ave Loss = 47.1568 | Train Samples = 8000.
+2021-04-24 18:10:53,020 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1001; 0.9893[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.6123
+2021-04-24 18:19:07,154 - IDN - INFO - Train: Epoch = 197 | Ave Loss = 52.9090 | Train Samples = 8000.
+2021-04-24 18:19:13,659 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2195; 0.9890[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.2642
+2021-04-24 18:27:27,525 - IDN - INFO - Train: Epoch = 198 | Ave Loss = 50.8761 | Train Samples = 8000.
+2021-04-24 18:27:34,079 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2165; 0.9892[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 38.2732
+2021-04-24 18:35:48,263 - IDN - INFO - Train: Epoch = 199 | Ave Loss = 52.2877 | Train Samples = 8000.
+2021-04-24 18:35:54,789 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1252; 0.9894[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.6474
+2021-04-24 18:44:08,857 - IDN - INFO - Train: Epoch = 200 | Ave Loss = 50.4910 | Train Samples = 8000.
+2021-04-24 18:44:15,477 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5068; 0.9906[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.0613
+2021-04-24 18:52:30,602 - IDN - INFO - Train: Epoch = 201 | Ave Loss = 52.8373 | Train Samples = 8000.
+2021-04-24 18:52:37,063 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9355; 0.9900[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 39.2376
+2021-04-24 19:00:52,061 - IDN - INFO - Train: Epoch = 202 | Ave Loss = 46.0367 | Train Samples = 8000.
+2021-04-24 19:00:58,602 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9534; 0.9886[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.7878
+2021-04-24 19:09:12,401 - IDN - INFO - Train: Epoch = 203 | Ave Loss = 48.7499 | Train Samples = 8000.
+2021-04-24 19:09:18,922 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5341; 0.9905[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9809
+2021-04-24 19:17:34,473 - IDN - INFO - Train: Epoch = 204 | Ave Loss = 50.7009 | Train Samples = 8000.
+2021-04-24 19:17:40,997 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4169; 0.9901[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.5531
+2021-04-24 19:25:55,104 - IDN - INFO - Train: Epoch = 205 | Ave Loss = 48.2869 | Train Samples = 8000.
+2021-04-24 19:26:01,624 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2039; 0.9900[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.4428
+2021-04-24 19:34:16,393 - IDN - INFO - Train: Epoch = 206 | Ave Loss = 51.2643 | Train Samples = 8000.
+2021-04-24 19:34:22,948 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.6778; 0.9893[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.8412
+2021-04-24 19:42:44,772 - IDN - INFO - Train: Epoch = 207 | Ave Loss = 47.6527 | Train Samples = 8000.
+2021-04-24 19:42:51,360 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1775; 0.9899[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.2562
+2021-04-24 19:51:24,999 - IDN - INFO - Train: Epoch = 208 | Ave Loss = 49.8493 | Train Samples = 8000.
+2021-04-24 19:51:31,824 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6148; 0.9907[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.4277
+2021-04-24 19:59:59,476 - IDN - INFO - Train: Epoch = 209 | Ave Loss = 49.2400 | Train Samples = 8000.
+2021-04-24 20:00:06,412 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2884; 0.9896[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.6038
+2021-04-24 20:08:24,185 - IDN - INFO - Train: Epoch = 210 | Ave Loss = 48.2752 | Train Samples = 8000.
+2021-04-24 20:08:30,668 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5527; 0.9906[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 43.0415
+2021-04-24 20:16:51,828 - IDN - INFO - Train: Epoch = 211 | Ave Loss = 53.0162 | Train Samples = 8000.
+2021-04-24 20:16:58,347 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5056; 0.9908[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.7152
+2021-04-24 20:25:10,026 - IDN - INFO - Train: Epoch = 212 | Ave Loss = 49.7620 | Train Samples = 8000.
+2021-04-24 20:25:16,572 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5462; 0.9904[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.1970
+2021-04-24 20:33:35,107 - IDN - INFO - Train: Epoch = 213 | Ave Loss = 48.7826 | Train Samples = 8000.
+2021-04-24 20:33:41,943 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3298; 0.9901[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.2212
+2021-04-24 20:42:00,796 - IDN - INFO - Train: Epoch = 214 | Ave Loss = 46.7560 | Train Samples = 8000.
+2021-04-24 20:42:07,310 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9388; 0.9886[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.6314
+2021-04-24 20:50:21,211 - IDN - INFO - Train: Epoch = 215 | Ave Loss = 54.4085 | Train Samples = 8000.
+2021-04-24 20:50:28,494 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4383; 0.9901[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.7676
+2021-04-24 20:58:39,473 - IDN - INFO - Train: Epoch = 216 | Ave Loss = 48.9567 | Train Samples = 8000.
+2021-04-24 20:58:45,987 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5007; 0.9909[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.7849
+2021-04-24 21:06:57,248 - IDN - INFO - Train: Epoch = 217 | Ave Loss = 47.2726 | Train Samples = 8000.
+2021-04-24 21:07:03,743 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3551; 0.9903[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 43.0129
+2021-04-24 21:15:14,735 - IDN - INFO - Train: Epoch = 218 | Ave Loss = 53.3416 | Train Samples = 8000.
+2021-04-24 21:15:21,209 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5454; 0.9906[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.6397
+2021-04-24 21:23:32,455 - IDN - INFO - Train: Epoch = 219 | Ave Loss = 49.2939 | Train Samples = 8000.
+2021-04-24 21:23:38,942 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2959; 0.9896[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9557
+2021-04-24 21:31:50,359 - IDN - INFO - Train: Epoch = 220 | Ave Loss = 46.3831 | Train Samples = 8000.
+2021-04-24 21:31:56,890 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6079; 0.9906[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 40.7813
+2021-04-24 21:40:07,667 - IDN - INFO - Train: Epoch = 221 | Ave Loss = 52.7062 | Train Samples = 8000.
+2021-04-24 21:40:14,152 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0473; 0.9896[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.4782
+2021-04-24 21:48:24,950 - IDN - INFO - Train: Epoch = 222 | Ave Loss = 50.5515 | Train Samples = 8000.
+2021-04-24 21:48:31,440 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9468; 0.9896[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.7590
+2021-04-24 21:56:41,715 - IDN - INFO - Train: Epoch = 223 | Ave Loss = 52.5470 | Train Samples = 8000.
+2021-04-24 21:56:48,196 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3280; 0.9896[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 42.9933
+2021-04-24 22:04:58,589 - IDN - INFO - Train: Epoch = 224 | Ave Loss = 51.8341 | Train Samples = 8000.
+2021-04-24 22:05:05,078 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3423; 0.9901[0m | [32mBest PSNR = 42.6475[0m | Gray PSNR = 41.9899
+2021-04-24 22:13:16,471 - IDN - INFO - Train: Epoch = 225 | Ave Loss = 49.5474 | Train Samples = 8000.
+2021-04-24 22:13:23,478 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6826; 0.9906[0m | [32mBest PSNR = 42.6826[0m | Gray PSNR = 40.2154
+2021-04-24 22:21:33,902 - IDN - INFO - Train: Epoch = 226 | Ave Loss = 52.1900 | Train Samples = 8000.
+2021-04-24 22:21:40,393 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3409; 0.9890[0m | [32mBest PSNR = 42.6826[0m | Gray PSNR = 41.1822
+2021-04-24 22:29:50,740 - IDN - INFO - Train: Epoch = 227 | Ave Loss = 46.0828 | Train Samples = 8000.
+2021-04-24 22:29:57,193 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3904; 0.9905[0m | [32mBest PSNR = 42.6826[0m | Gray PSNR = 41.2476
+2021-04-24 22:38:08,172 - IDN - INFO - Train: Epoch = 228 | Ave Loss = 48.0367 | Train Samples = 8000.
+2021-04-24 22:38:14,633 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9066; 0.9889[0m | [32mBest PSNR = 42.6826[0m | Gray PSNR = 41.0385
+2021-04-24 22:46:24,355 - IDN - INFO - Train: Epoch = 229 | Ave Loss = 51.4255 | Train Samples = 8000.
+2021-04-24 22:46:30,799 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1572; 0.9899[0m | [32mBest PSNR = 42.6826[0m | Gray PSNR = 42.5803
+2021-04-24 22:54:40,880 - IDN - INFO - Train: Epoch = 230 | Ave Loss = 44.4867 | Train Samples = 8000.
+2021-04-24 22:54:47,351 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3399; 0.9898[0m | [32mBest PSNR = 42.6826[0m | Gray PSNR = 43.0702
+2021-04-24 23:02:58,368 - IDN - INFO - Train: Epoch = 231 | Ave Loss = 50.4128 | Train Samples = 8000.
+2021-04-24 23:03:05,343 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6928; 0.9907[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 41.8001
+2021-04-24 23:11:15,937 - IDN - INFO - Train: Epoch = 232 | Ave Loss = 50.7458 | Train Samples = 8000.
+2021-04-24 23:11:22,406 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4322; 0.9902[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 43.1831
+2021-04-24 23:19:33,154 - IDN - INFO - Train: Epoch = 233 | Ave Loss = 52.1602 | Train Samples = 8000.
+2021-04-24 23:19:39,652 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4838; 0.9905[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 43.0384
+2021-04-24 23:27:50,537 - IDN - INFO - Train: Epoch = 234 | Ave Loss = 50.0433 | Train Samples = 8000.
+2021-04-24 23:27:57,018 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5039; 0.9882[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 42.2503
+2021-04-24 23:36:08,183 - IDN - INFO - Train: Epoch = 235 | Ave Loss = 51.6473 | Train Samples = 8000.
+2021-04-24 23:36:14,657 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2757; 0.9900[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 40.8836
+2021-04-24 23:44:25,282 - IDN - INFO - Train: Epoch = 236 | Ave Loss = 49.4167 | Train Samples = 8000.
+2021-04-24 23:44:31,764 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3702; 0.9902[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 41.1225
+2021-04-24 23:52:42,366 - IDN - INFO - Train: Epoch = 237 | Ave Loss = 49.0557 | Train Samples = 8000.
+2021-04-24 23:52:48,853 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4163; 0.9902[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 43.0645
+2021-04-25 00:01:00,126 - IDN - INFO - Train: Epoch = 238 | Ave Loss = 47.7596 | Train Samples = 8000.
+2021-04-25 00:01:06,584 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5798; 0.9908[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 41.0443
+2021-04-25 00:09:17,905 - IDN - INFO - Train: Epoch = 239 | Ave Loss = 47.1540 | Train Samples = 8000.
+2021-04-25 00:09:24,390 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0850; 0.9890[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 42.6883
+2021-04-25 00:17:35,729 - IDN - INFO - Train: Epoch = 240 | Ave Loss = 44.9668 | Train Samples = 8000.
+2021-04-25 00:17:42,221 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5618; 0.9908[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 43.2192
+2021-04-25 00:25:52,464 - IDN - INFO - Train: Epoch = 241 | Ave Loss = 49.0018 | Train Samples = 8000.
+2021-04-25 00:25:58,975 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3154; 0.9866[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 43.0902
+2021-04-25 00:34:09,786 - IDN - INFO - Train: Epoch = 242 | Ave Loss = 47.1045 | Train Samples = 8000.
+2021-04-25 00:34:16,281 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.5201; 0.9893[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 41.3817
+2021-04-25 00:42:27,120 - IDN - INFO - Train: Epoch = 243 | Ave Loss = 53.8402 | Train Samples = 8000.
+2021-04-25 00:42:33,639 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0107; 0.9896[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 43.3208
+2021-04-25 00:50:44,568 - IDN - INFO - Train: Epoch = 244 | Ave Loss = 46.3406 | Train Samples = 8000.
+2021-04-25 00:50:51,037 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3587; 0.9902[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 40.1788
+2021-04-25 00:59:01,705 - IDN - INFO - Train: Epoch = 245 | Ave Loss = 53.2233 | Train Samples = 8000.
+2021-04-25 00:59:08,208 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.4140; 0.9876[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 36.5468
+2021-04-25 01:07:19,459 - IDN - INFO - Train: Epoch = 246 | Ave Loss = 50.2172 | Train Samples = 8000.
+2021-04-25 01:07:25,979 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4940; 0.9906[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 41.8992
+2021-04-25 01:15:36,404 - IDN - INFO - Train: Epoch = 247 | Ave Loss = 54.2579 | Train Samples = 8000.
+2021-04-25 01:15:42,993 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9838; 0.9895[0m | [32mBest PSNR = 42.6928[0m | Gray PSNR = 42.7114
+2021-04-25 01:23:53,345 - IDN - INFO - Train: Epoch = 248 | Ave Loss = 50.0256 | Train Samples = 8000.
+2021-04-25 01:24:00,382 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.7279; 0.9906[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 41.3765
+2021-04-25 01:32:11,081 - IDN - INFO - Train: Epoch = 249 | Ave Loss = 50.7437 | Train Samples = 8000.
+2021-04-25 01:32:17,600 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2286; 0.9891[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 43.0926
+2021-04-25 01:40:28,748 - IDN - INFO - Train: Epoch = 250 | Ave Loss = 52.7152 | Train Samples = 8000.
+2021-04-25 01:40:35,356 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6619; 0.9906[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 41.3901
+2021-04-25 01:48:45,010 - IDN - INFO - Train: Epoch = 251 | Ave Loss = 49.4165 | Train Samples = 8000.
+2021-04-25 01:48:51,487 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0790; 0.9886[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.7293
+2021-04-25 01:57:02,450 - IDN - INFO - Train: Epoch = 252 | Ave Loss = 51.3925 | Train Samples = 8000.
+2021-04-25 01:57:08,947 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9074; 0.9901[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 41.2931
+2021-04-25 02:05:19,893 - IDN - INFO - Train: Epoch = 253 | Ave Loss = 51.2006 | Train Samples = 8000.
+2021-04-25 02:05:26,375 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1471; 0.9893[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.8751
+2021-04-25 02:13:37,519 - IDN - INFO - Train: Epoch = 254 | Ave Loss = 48.1309 | Train Samples = 8000.
+2021-04-25 02:13:44,030 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.3796; 0.9888[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.0126
+2021-04-25 02:21:55,090 - IDN - INFO - Train: Epoch = 255 | Ave Loss = 45.0640 | Train Samples = 8000.
+2021-04-25 02:22:01,673 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6208; 0.9906[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 40.9299
+2021-04-25 02:30:12,663 - IDN - INFO - Train: Epoch = 256 | Ave Loss = 52.5287 | Train Samples = 8000.
+2021-04-25 02:30:19,171 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5931; 0.9905[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 43.1933
+2021-04-25 02:38:30,023 - IDN - INFO - Train: Epoch = 257 | Ave Loss = 46.4599 | Train Samples = 8000.
+2021-04-25 02:38:36,516 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6510; 0.9903[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 39.1713
+2021-04-25 02:46:47,100 - IDN - INFO - Train: Epoch = 258 | Ave Loss = 48.7509 | Train Samples = 8000.
+2021-04-25 02:46:53,602 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5463; 0.9903[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.2914
+2021-04-25 02:55:04,071 - IDN - INFO - Train: Epoch = 259 | Ave Loss = 45.2249 | Train Samples = 8000.
+2021-04-25 02:55:10,527 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9263; 0.9886[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.2285
+2021-04-25 03:03:21,166 - IDN - INFO - Train: Epoch = 260 | Ave Loss = 50.4455 | Train Samples = 8000.
+2021-04-25 03:03:27,668 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5253; 0.9903[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.2507
+2021-04-25 03:11:38,936 - IDN - INFO - Train: Epoch = 261 | Ave Loss = 47.2231 | Train Samples = 8000.
+2021-04-25 03:11:45,431 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5447; 0.9907[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 41.6610
+2021-04-25 03:19:56,817 - IDN - INFO - Train: Epoch = 262 | Ave Loss = 49.4328 | Train Samples = 8000.
+2021-04-25 03:20:03,316 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.3935; 0.9905[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.9633
+2021-04-25 03:28:13,300 - IDN - INFO - Train: Epoch = 263 | Ave Loss = 50.6051 | Train Samples = 8000.
+2021-04-25 03:28:19,808 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2353; 0.9897[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.9071
+2021-04-25 03:36:30,798 - IDN - INFO - Train: Epoch = 264 | Ave Loss = 50.3086 | Train Samples = 8000.
+2021-04-25 03:36:37,298 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2945; 0.9903[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 41.8323
+2021-04-25 03:44:47,899 - IDN - INFO - Train: Epoch = 265 | Ave Loss = 49.1127 | Train Samples = 8000.
+2021-04-25 03:44:54,407 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6014; 0.9907[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 43.1389
+2021-04-25 03:53:04,870 - IDN - INFO - Train: Epoch = 266 | Ave Loss = 51.0020 | Train Samples = 8000.
+2021-04-25 03:53:11,356 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9898; 0.9892[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.0002
+2021-04-25 04:01:22,114 - IDN - INFO - Train: Epoch = 267 | Ave Loss = 47.0424 | Train Samples = 8000.
+2021-04-25 04:01:28,580 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1950; 0.9881[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 39.5924
+2021-04-25 04:09:39,607 - IDN - INFO - Train: Epoch = 268 | Ave Loss = 48.7580 | Train Samples = 8000.
+2021-04-25 04:09:46,091 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6412; 0.9905[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.1480
+2021-04-25 04:17:56,882 - IDN - INFO - Train: Epoch = 269 | Ave Loss = 46.0665 | Train Samples = 8000.
+2021-04-25 04:18:03,356 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0283; 0.9891[0m | [32mBest PSNR = 42.7279[0m | Gray PSNR = 42.3023
+2021-04-25 04:26:13,933 - IDN - INFO - Train: Epoch = 270 | Ave Loss = 47.6174 | Train Samples = 8000.
+2021-04-25 04:26:20,990 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.7601; 0.9910[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 43.1079
+2021-04-25 04:34:31,583 - IDN - INFO - Train: Epoch = 271 | Ave Loss = 52.1478 | Train Samples = 8000.
+2021-04-25 04:34:38,080 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2269; 0.9903[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 42.3044
+2021-04-25 04:42:48,038 - IDN - INFO - Train: Epoch = 272 | Ave Loss = 49.9228 | Train Samples = 8000.
+2021-04-25 04:42:54,513 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2259; 0.9890[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 41.7718
+2021-04-25 04:51:05,154 - IDN - INFO - Train: Epoch = 273 | Ave Loss = 49.9472 | Train Samples = 8000.
+2021-04-25 04:51:11,690 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9803; 0.9892[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 42.9350
+2021-04-25 04:59:21,896 - IDN - INFO - Train: Epoch = 274 | Ave Loss = 50.0596 | Train Samples = 8000.
+2021-04-25 04:59:28,431 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4774; 0.9904[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 41.8084
+2021-04-25 05:07:39,667 - IDN - INFO - Train: Epoch = 275 | Ave Loss = 51.1084 | Train Samples = 8000.
+2021-04-25 05:07:46,158 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4834; 0.9901[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 42.9689
+2021-04-25 05:15:58,126 - IDN - INFO - Train: Epoch = 276 | Ave Loss = 48.5089 | Train Samples = 8000.
+2021-04-25 05:16:04,626 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6581; 0.9904[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 39.9573
+2021-04-25 05:24:15,084 - IDN - INFO - Train: Epoch = 277 | Ave Loss = 51.0512 | Train Samples = 8000.
+2021-04-25 05:24:21,593 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4162; 0.9904[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 43.2174
+2021-04-25 05:32:32,487 - IDN - INFO - Train: Epoch = 278 | Ave Loss = 46.9840 | Train Samples = 8000.
+2021-04-25 05:32:39,003 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5941; 0.9905[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 42.7677
+2021-04-25 05:40:50,346 - IDN - INFO - Train: Epoch = 279 | Ave Loss = 49.1665 | Train Samples = 8000.
+2021-04-25 05:40:56,835 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2770; 0.9900[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 39.3515
+2021-04-25 05:49:07,788 - IDN - INFO - Train: Epoch = 280 | Ave Loss = 48.3547 | Train Samples = 8000.
+2021-04-25 05:49:14,348 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0624; 0.9895[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 41.9306
+2021-04-25 05:57:24,189 - IDN - INFO - Train: Epoch = 281 | Ave Loss = 47.9927 | Train Samples = 8000.
+2021-04-25 05:57:30,691 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6431; 0.9907[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 41.3548
+2021-04-25 06:05:41,633 - IDN - INFO - Train: Epoch = 282 | Ave Loss = 49.7416 | Train Samples = 8000.
+2021-04-25 06:05:48,122 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5051; 0.9901[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 42.4183
+2021-04-25 06:13:58,890 - IDN - INFO - Train: Epoch = 283 | Ave Loss = 50.1372 | Train Samples = 8000.
+2021-04-25 06:14:05,379 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.1175; 0.9893[0m | [32mBest PSNR = 42.7601[0m | Gray PSNR = 40.6954
+2021-04-25 06:22:16,665 - IDN - INFO - Train: Epoch = 284 | Ave Loss = 50.4567 | Train Samples = 8000.
+2021-04-25 06:22:23,591 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.7726; 0.9909[0m | [32mBest PSNR = 42.7726[0m | Gray PSNR = 37.5903
+2021-04-25 06:30:44,309 - IDN - INFO - Train: Epoch = 285 | Ave Loss = 48.6405 | Train Samples = 8000.
+2021-04-25 06:30:50,807 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4721; 0.9901[0m | [32mBest PSNR = 42.7726[0m | Gray PSNR = 42.4584
+2021-04-25 06:39:01,013 - IDN - INFO - Train: Epoch = 286 | Ave Loss = 49.2047 | Train Samples = 8000.
+2021-04-25 06:39:08,097 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.8187; 0.9904[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 41.1576
+2021-04-25 06:47:19,931 - IDN - INFO - Train: Epoch = 287 | Ave Loss = 50.1867 | Train Samples = 8000.
+2021-04-25 06:47:26,409 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.7501; 0.9910[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 41.1261
+2021-04-25 06:55:37,051 - IDN - INFO - Train: Epoch = 288 | Ave Loss = 51.3494 | Train Samples = 8000.
+2021-04-25 06:55:43,529 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2317; 0.9892[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.3397
+2021-04-25 07:03:53,024 - IDN - INFO - Train: Epoch = 289 | Ave Loss = 50.5774 | Train Samples = 8000.
+2021-04-25 07:03:59,517 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.2962; 0.9902[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.8365
+2021-04-25 07:12:10,820 - IDN - INFO - Train: Epoch = 290 | Ave Loss = 55.0306 | Train Samples = 8000.
+2021-04-25 07:12:17,299 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4739; 0.9899[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.8705
+2021-04-25 07:20:28,577 - IDN - INFO - Train: Epoch = 291 | Ave Loss = 48.7746 | Train Samples = 8000.
+2021-04-25 07:20:35,078 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.0202; 0.9881[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.7720
+2021-04-25 07:28:46,797 - IDN - INFO - Train: Epoch = 292 | Ave Loss = 49.0933 | Train Samples = 8000.
+2021-04-25 07:28:53,263 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4543; 0.9898[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.9106
+2021-04-25 07:37:03,969 - IDN - INFO - Train: Epoch = 293 | Ave Loss = 46.9410 | Train Samples = 8000.
+2021-04-25 07:37:10,475 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4295; 0.9897[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.7411
+2021-04-25 07:45:21,263 - IDN - INFO - Train: Epoch = 294 | Ave Loss = 45.8711 | Train Samples = 8000.
+2021-04-25 07:45:27,739 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.5172; 0.9901[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 43.1182
+2021-04-25 07:53:38,618 - IDN - INFO - Train: Epoch = 295 | Ave Loss = 45.6556 | Train Samples = 8000.
+2021-04-25 07:53:45,153 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.7700; 0.9908[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 41.1939
+2021-04-25 08:01:56,767 - IDN - INFO - Train: Epoch = 296 | Ave Loss = 50.6937 | Train Samples = 8000.
+2021-04-25 08:02:03,324 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 41.9973; 0.9895[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 42.5486
+2021-04-25 08:10:13,914 - IDN - INFO - Train: Epoch = 297 | Ave Loss = 50.0455 | Train Samples = 8000.
+2021-04-25 08:10:20,384 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.4447; 0.9905[0m | [32mBest PSNR = 42.8187[0m | Gray PSNR = 41.8922
+2021-04-25 08:18:30,824 - IDN - INFO - Train: Epoch = 298 | Ave Loss = 49.8115 | Train Samples = 8000.
+2021-04-25 08:18:37,903 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.8399; 0.9910[0m | [32mBest PSNR = 42.8399[0m | Gray PSNR = 39.7897
+2021-04-25 08:26:49,027 - IDN - INFO - Train: Epoch = 299 | Ave Loss = 51.6281 | Train Samples = 8000.
+2021-04-25 08:26:55,552 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.7735; 0.9907[0m | [32mBest PSNR = 42.8399[0m | Gray PSNR = 42.3698
+2021-04-25 08:35:05,988 - IDN - INFO - Train: Epoch = 300 | Ave Loss = 46.2842 | Train Samples = 8000.
+2021-04-25 08:35:12,546 - IDN - INFO - Valid Samples =  24 | [31mColor PSNR/SSIM = 42.6203; 0.9906[0m | [32mBest PSNR = 42.8399[0m | Gray PSNR = 42.9781
