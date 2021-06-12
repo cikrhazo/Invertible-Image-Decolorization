@@ -1,5 +1,5 @@
 from datasets.dataset import MakeValidSet, Kodak24, MakeNCD
-from invertible_net import Inveritible_Colorization
+from invertible_net import Inveritible_Decolorization
 from datasets.utls import str2bool
 import torch.utils.data as data
 from utlz import Quantization
@@ -20,7 +20,7 @@ def main(args):
     ValidSet = Kodak24()
     ValidLoader = data.DataLoader(ValidSet, batch_size=8, num_workers=0, shuffle=False, pin_memory=True)
 
-    net = Inveritible_Colorization()
+    net = Inveritible_Decolorization()
 
     net.load_state_dict(torch.load("./models/ColorFlow_IDN.pth"))
 
