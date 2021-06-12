@@ -1,6 +1,6 @@
 from datasets.dataset import MakeTrainSet, Kodak24
 from utlz import Quantization
-from invertible_net import Inveritible_Colorization
+from invertible_net import Inveritible_Decolorization
 from datasets.utls import str2bool
 import torch.utils.data as data
 from criteria import ConsistencyLoss
@@ -51,7 +51,7 @@ def main(args):
 
     logger.info("# Training Samples: " + str(TrainSet.__len__()) + "; Valid Samples: " + str(ValidSet.__len__()))
 
-    net = Inveritible_Colorization()
+    net = Inveritible_Decolorization()
     optimizer = Adam(net.parameters(), weight_decay=weight_decay, betas=(0.5, 0.999), lr=lr)
 
     if args.load_checkpoint:
