@@ -278,9 +278,9 @@ class DenseBlock(nn.Module):
         return x5
 
 
-class Inveritible_Colorization(nn.Module):
+class Inveritible_Decolorization(nn.Module):
     def __init__(self, dims_in=[[3, 64, 64]], down_num=3, block_num=[4, 4, 6]):
-        super(Inveritible_Colorization, self).__init__()
+        super(Inveritible_Decolorization, self).__init__()
 
         operations = []
 
