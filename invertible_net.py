@@ -339,7 +339,7 @@ if __name__ == "__main__":
 
     batch_c = tensor_c.unsqueeze(0)
 
-    net = Inveritible_Colorization()
+    net = Inveritible_Decolorization()
     net.eval()
     net = net.cuda()
 
