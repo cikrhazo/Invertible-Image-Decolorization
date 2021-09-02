@@ -4,7 +4,7 @@ from invertible_net import Inveritible_Decolorization
 from datasets.utls import str2bool
 import torch.utils.data as data
 from criteria import ConsistencyLoss
-
+from torch.optim import Adam
 import os, sys, time, math
 import torch, cv2
 import logging
