@@ -159,8 +159,8 @@ def main(args):
                 psnr_g = round(compare_psnr(img_grayed_th, img_grayscale, data_range=1), 4)
 
                 print("#sample:" + str(batch_idx) + "_" + str(ii) +
-                      ' Colorized => PSNR: %.4f; SSIM: %.4f' % (psnr_c, ssim_c), end=" | ")
-                print('Grayscale => PSNR: %.4f; SSIM: %.4f' % (psnr_g, ssim_g))
+                      ' Colorized => PSNR: %.4f' % (psnr_c), end=" | ")
+                print('Grayscale => PSNR: %.4f' % (psnr_c))
 
                 ColorPSNR += psnr_c
                 GrayPSNR += psnr_g
