@@ -160,7 +160,7 @@ def main(args):
 
                 print("#sample:" + str(batch_idx) + "_" + str(ii) +
                       ' Colorized => PSNR: %.4f' % (psnr_c), end=" | ")
-                print('Grayscale => PSNR: %.4f' % (psnr_c))
+                print('Grayscale => PSNR: %.4f' % (psnr_g))
 
                 ColorPSNR += psnr_c
                 GrayPSNR += psnr_g
