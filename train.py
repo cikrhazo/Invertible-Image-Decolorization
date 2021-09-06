@@ -152,11 +152,11 @@ def main(args):
             for ii in range(n):
                 img_colorized = tensor_pc[ii].transpose((1, 2, 0)).clip(0, 1)[:h[ii], :w[ii], :]
                 img_ground_th = tensor_c[ii].transpose((1, 2, 0)).clip(0, 1)[:h[ii], :w[ii], :]
-                psnr_c = round(compare_psnr(img_colorized, img_ground_th, data_range=1), 4)
+                psnr_c = round(compare_psnr(img_ground_th, img_colorized, data_range=1), 4)
 
                 img_grayscale = tensor_pg[ii].clip(0, 1)[:h[ii], :w[ii]]
                 img_grayed_th = tensor_g[ii].clip(0, 1)[:h[ii], :w[ii]]
-                psnr_g = round(compare_psnr(img_grayscale, img_grayed_th, data_range=1), 4)
+                psnr_g = round(compare_psnr(img_grayed_th, img_grayscale, data_range=1), 4)
 
                 print("#sample:" + str(batch_idx) + "_" + str(ii) +
                       ' Colorized => PSNR: %.4f; SSIM: %.4f' % (psnr_c, ssim_c), end=" | ")
