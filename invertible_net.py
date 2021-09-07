@@ -5,9 +5,6 @@ import numpy as np
 import utlz
 
 class Squeeze(nn.Module):
-    """ RealNVP squeezing operation layer (cf RealNVP section 3.6; Glow figure 2b):
-    For each channel, it divides the image into subsquares of shape 2 × 2 × c, then reshapes them into subsquares of
-    shape 1 × 1 × 4c. The squeezing operation transforms an s × s × c tensor into an s × s × 4c tensor """
     def __init__(self):
         super().__init__()
 
@@ -49,13 +46,6 @@ class Unsqueeze(nn.Module):
 
 
 class Gaussianize(nn.Module):
-    """ Gaussianization per ReanNVP sec 3.6 / fig 4b -- at each step half the variables are directly modeled as Gaussians.
-    Model as Gaussians:
-        x2 = z2 * exp(logs) + mu, so x2 ~ N(mu, exp(logs)^2) where mu, logs = f(x1)
-    then to recover the random numbers z driving the model:
-        z2 = (x2 - mu) * exp(-logs)
-    Here f(x1) is a conv layer initialized to identity.
-    """
     def __init__(self, n_channels):
         super().__init__()
         self.net = DenseBlock(n_channels, 4*n_channels)  # computes the parameters of Gaussian
@@ -80,14 +70,6 @@ class Gaussianize(nn.Module):
 
 
 class RNVPCouplingBlock(nn.Module):
-    '''
-    Coupling Block following the RealNVP design.
-    subnet_constructor: function or class, with signature constructor(dims_in, dims_out).
-                        The result should be a torch nn.Module, that takes dims_in input channels,
-                        and dims_out output channels. See tutorial for examples.
-    clamp:              Soft clamping for the multiplicative component. The amplification or attenuation
-                        of each input dimension can be at most ±exp(clamp).
-    '''
 
     def __init__(self, dims_in, subnet_constructor=None, clamp=1.0):
         super().__init__()
@@ -136,8 +118,6 @@ class RNVPCouplingBlock(nn.Module):
 
 
 class HaarDownsampling(nn.Module):
-    '''Uses Haar wavelets to split each channel into 4 channels, with half the
-    width and height.'''
 
     def __init__(self, dims_in, order_by_wavelet=False, rebalance=1.):
         super().__init__()
@@ -208,8 +188,6 @@ class HaarDownsampling(nn.Module):
 
 
 class HaarUpsampling(nn.Module):
-    '''Uses Haar wavelets to merge 4 channels into one, with double the
-    width and height.'''
 
     def __init__(self, dims_in):
         super().__init__()
