@@ -105,7 +105,6 @@ class RNVPCouplingBlock(nn.Module):
             y2 = self.e(s1) * x2 + t1
             self.last_s = [s1, s2]
         else:
-            # names of x1 and y1 are swapped!
             x1_c = x1
             s1, t1 = self.s1(x1_c), self.t1(x1_c)
             y2 = (x2 - t1) / self.e(s1)
