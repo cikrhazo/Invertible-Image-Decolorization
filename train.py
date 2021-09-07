@@ -195,7 +195,7 @@ if __name__ == "__main__":
     parser.add_argument("--c_weight", type=float)
     parser.add_argument("--s_weight", type=float)
     parser.add_argument("--r_weight", type=float)
-    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--lr", type=float, default=5e-5)
     parser.add_argument("--weight_decay", type=float, default=5e-4)
     parser.add_argument('--device', type=int, default=0)
     args = parser.parse_args()
