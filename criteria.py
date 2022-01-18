@@ -59,7 +59,7 @@ class GrayscaleConformityLoss(nn.Module):
     def lightness(self, gray_img, original_luminance):
         # print(original_luminance.shape, gray_img.shape, self.zeros.shape)
         # loss = torch.mean(torch.max(torch.abs(original_luminance.repeat(1, 3, 1, 1) - gray_img) - self.threshold, self.zeros))
-        loss = torch.sum(torch.max(torch.abs(original_luminance - gray_img) - self.threshold, self.zeros))
+        loss = torch.mean(torch.max(torch.abs(original_luminance - gray_img) - self.threshold, self.zeros))
         return loss
 
     def contrast(self, gray_img, original_img):
