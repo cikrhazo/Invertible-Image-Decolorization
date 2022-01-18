@@ -70,7 +70,7 @@ def main(args):
 
     BestPSNR = 0.
     
-    # use warmup to stablize the training, or it may not converage; set a smaller r_weight may help training.
+    # use warmup to stablize the training, or it may not converage; set a smaller r_weight at the beginning may help training.
 
     for i in range(beginner, epoch):
         loss_record = 0
