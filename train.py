@@ -62,7 +62,7 @@ def main(args):
     net.cuda(device=device)
     quantize = Quantization()
     loss_cons = ConsistencyLoss(device="cuda:0", img_shape=(batch_size, 1, 128, 128), c_weight=args.c_weight)
-    loss_dist = nn.L1Loss(reduction="sum")
+    loss_dist = nn.MSELoss(reduction="sum")
 
     tmp = filter(lambda x: x.requires_grad, net.parameters())
     num = sum(map(lambda x: np.prod(x.shape), tmp))
